@@ -29,3 +29,12 @@ end)
 ToolSection:NewButton("Dark Dex V4", "Dark Dex V3. Dex viewer", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/Ike-s-Scripts-ACTUAL/main/DarkDexV4'))()
 end)
+
+--Scripts
+local Main = Window:NewTab("Scripts")
+local ScriptSection = Main:NewSection("Scripts")
+
+
+ScriptSection:NewButton("Town Script by Ike#5195", "A gui for the game Town on Roblox", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/Ike-s-Scripts-ACTUAL/main/IkeTownScript'))()
+end)
