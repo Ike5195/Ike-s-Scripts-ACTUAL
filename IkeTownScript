@@ -52,4 +52,9 @@ CharSection:NewButton("Noclip", "Even after you die, you still have speed 32", f
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/TownScript/main/Noclip'))()
 end)
 
+--InfJump
+CharSection:NewButton("InfJump", "Lets you jump inf in the air", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/TownScript/main/InfJump'))()
+end)
+
 
